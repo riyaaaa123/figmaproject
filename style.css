@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0 ;
+}
+.navbar{
+    width: 100vw;
+    height:136px;
+    padding : 17px 16px 17px 16px !important;
+}
+.active{
+    color: #FA4A0C !important;
+}
+.logo{
+    height:101.76px;
+}
+#topthing{
+    width: 100vw;
+    height: 1222.91px;
+    background-image: url("images/topthing.png");
+    background-size: 100vw 619px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    align-items: center;
+    padding-top: 72px;
+    gap:10px;
+    flex-wrap: wrap;
+}
+#mob{
+    height: 670px;
+    top: 610px;
+}
+.btn-rounded{
+    width: 236px;
+    height:68px;
+    border-radius: 30px !important;
+    font-size: 25px !important;
+}
+#bottomthing{
+    width: 100vw;
+    height: 509px;
+    background-image: url("images/deeeeeeep.png");
+    background-size: 100vw 509px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    align-items: center;
+    padding : 110px 24px 110px 24px;
+    gap:10px;
+}
+.footer{
+    height:239px;
+    width:100vw;
+    padding:32px 115px 33.5px 115px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    gap:20px;
+}
+.icon{
+    height:40.99px;
+    width:40.99px;
+}
+.showinlow{
+    display: none;
+}
+.logobtm{
+    width: 206px;
+    height: 92px;
+    background-image: url("images/logo.png");
+    background-size: 206px 92px;
+}
+@media screen and (max-width: 680px) {
+.navbar{
+    height:112px;
+    width: 100vw;
+    padding : 17px 16px 17px 16px !important;
+}
+#topthing{
+    background:none;
+    color: black;
+}
+#bottomthing{
+    background: none;
+    background-color: #252B42;
+}
+#btn-responsive{
+    border-color: red ;
+    color: red;
+}
+.hidinlow{
+    display:none;
+}
+.showinlow{
+    display: inline-block;
+}
+}
