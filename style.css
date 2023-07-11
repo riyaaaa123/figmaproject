@@ -125,4 +125,14 @@ align-items: center;
 .showinlow{
     display: inline-block;
 }
+    .loginsignup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
