@@ -3,7 +3,7 @@
     margin: 0 ;
 }
 .navbar{
-    width: 100vw;
+    /* width: 100vw; */
     height:136px;
     padding : 17px 16px 17px 16px !important;
 }
@@ -14,7 +14,7 @@
     height:101.76px;
 }
 #topthing{
-    width: 100vw;
+    /* width: 100vw; */
     height: 1222.91px;
     background-image: url("images/topthing.png");
     background-size: 100vw 619px;
@@ -29,19 +29,20 @@
     flex-wrap: wrap;
 }
 #mob{
-    height: 670px;
-    top: 610px;
+    max-height: 670px;
 }
 .btn-rounded{
     width: 236px;
     height:68px;
     border-radius: 30px !important;
     font-size: 25px !important;
+    font-family: Montserrat;
+    font-weight: 700;
 }
 #bottomthing{
-    width: 100vw;
+    /* width: 100vw; */
     height: 509px;
-    background-image: url("images/deeeeeeep.png");
+    background-image: url("images/bottom.png");
     background-size: 100vw 509px;
     background-repeat: no-repeat;
     display: flex;
@@ -54,7 +55,7 @@
 }
 .footer{
     height:239px;
-    width:100vw;
+    /* width:100vw; */
     padding:32px 115px 33.5px 115px;
     display: flex;
     flex-wrap: wrap;
@@ -104,8 +105,12 @@ align-items: center;
 @media screen and (max-width: 680px) {
 .navbar{
     height:112px;
-    width: 100vw;
     padding : 17px 16px 17px 16px !important;
+}
+.nav-its{
+    gap:0px !important;
+    background-color: white;
+    align-items: center;
 }
 #topthing{
     background:none;
@@ -119,13 +124,16 @@ align-items: center;
     border-color: red ;
     color: red;
 }
+.footer{
+    justify-content: center;
+}
 .hidinlow{
     display:none;
 }
 .showinlow{
-    display: inline-block;
+    display: inline;
 }
-    .loginsignup{
+.loginsignup{
     display: flex;
     flex-direction: column;
     align-items: center;
