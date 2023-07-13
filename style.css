@@ -92,11 +92,17 @@
     flex-basis: 100%;
   text-align: center;
 }
-.rec{
+#rec2{
+    display: none;
+}
+#content2{
+    display: none;
+}
+.rec,.rec1{
     flex-basis: 50%;
   max-width: 100%;
 }
-.content{
+.content,.content1{
 margin-top: 250px;  
 flex-basis: 50%;
 align-items: center;
@@ -143,4 +149,17 @@ align-items: center;
     flex-direction: column;
     align-items: center;
 }
+ .content1{
+    display:none
+}
+.rec1{
+    display: none;
+}
+#content2{
+    display: block;
+}
+#rec2{
+    display: block;
+}
+
 }
