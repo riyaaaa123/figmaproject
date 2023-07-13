@@ -128,7 +128,7 @@ align-items: center;
     justify-content: center;
 }
 .hidinlow{
-    display:none;
+    display:none !important;
 }
 .showinlow{
     display: inline;
