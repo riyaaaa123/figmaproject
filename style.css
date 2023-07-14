@@ -30,13 +30,15 @@
 }
 #mob{
     max-height: 670px;
+    margin-top: 20px;
+    border-radius: 20px;
 }
 .btn-rounded{
     width: 236px;
     height:68px;
     border-radius: 30px !important;
     font-size: 25px !important;
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-weight: 700;
 }
 #bottomthing{
@@ -83,6 +85,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    gap:86px;
+    margin-bottom: 40px;
 }
 .login{
     display: flex;
@@ -94,21 +98,29 @@
 }
 .rec2{
     display: none;
+    border-radius: 40px;
+
 }
 .content2{
     display: none;
 }
-.rec,.rec1{
+.cont{
     flex-basis: 50%;
-  max-width: 100%;
 }
-.content,.content1{
+.rec1{
+    /* flex-basis: 50%; */
+    border-radius: 40px;
+    margin-left: 250px;
+    /* margin-right: 100px; */
+}
+.content1{
 margin-top: 250px;  
 flex-basis: 50%;
 align-items: center;
+margin-left: 250px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 980px) {
 .navbar{
     height:112px;
     padding : 17px 16px 17px 16px !important;
@@ -118,12 +130,16 @@ align-items: center;
     background-color: white;
     align-items: center;
 }
-body{
-    overflow-x: hidden;
+#mob{
+    width: 95vw;
 }
 #topthing{
     background:none;
     color: black;
+}
+.headline{
+    border-bottom: rgb(186, 186, 186) 0.5px solid;
+    padding-bottom: 40px;
 }
 #bottomthing{
     background: none;
@@ -140,26 +156,26 @@ body{
     display:none !important;
 }
 .showinlow{
-    display: inline;
+    display: block !important;
 }
 .loginsignup{
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 .login{
-    display: flex;
     flex-direction: column;
     align-items: center;
+    gap:30px;
 }
  .content1{
-    display:none
+    display:none;
 }
 .rec1{
     display: none;
 }
 .content2{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap:10px
 }
 .rec2{
     display: block;
