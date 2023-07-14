@@ -118,6 +118,9 @@ align-items: center;
     background-color: white;
     align-items: center;
 }
+body{
+    overflow-x: hidden;
+}
 #topthing{
     background:none;
     color: black;
