@@ -92,10 +92,10 @@
     flex-basis: 100%;
   text-align: center;
 }
-#rec2{
+.rec2{
     display: none;
 }
-#content2{
+.content2{
     display: none;
 }
 .rec,.rec1{
@@ -155,10 +155,10 @@ align-items: center;
 .rec1{
     display: none;
 }
-#content2{
+.content2{
     display: block;
 }
-#rec2{
+.rec2{
     display: block;
 }
 
